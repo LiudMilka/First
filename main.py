@@ -13,9 +13,9 @@ else:
     if discrminant > 0:
         x1 = (-b + math.sqrt(discrminant)) / ( 2 * a)
         x2 = (-b - math.sqrt(discrminant)) / (2 * a)
-        print ("x1 =", x1, "; ", "x2 =", x2)
+        print("x1 =", x1, "; ", "x2 =", x2)
     elif discrminant == 0:
         x = -b / (2* a)
-        print ("x =", x )
+        print("x =", x )
     else:
         print("Коренів немає")
